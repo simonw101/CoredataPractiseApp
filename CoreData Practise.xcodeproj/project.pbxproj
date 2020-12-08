@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		6569F5F0257FB29F0027B3B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569F5EF257FB29F0027B3B1 /* AppDelegate.swift */; };
 		6569F5F2257FB29F0027B3B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569F5F1257FB29F0027B3B1 /* SceneDelegate.swift */; };
-		6569F5F4257FB29F0027B3B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569F5F3257FB29F0027B3B1 /* ViewController.swift */; };
 		6569F5F7257FB29F0027B3B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6569F5F5257FB29F0027B3B1 /* Main.storyboard */; };
 		6569F5FA257FB29F0027B3B1 /* CoreData_Practise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6569F5F8257FB29F0027B3B1 /* CoreData_Practise.xcdatamodeld */; };
 		6569F5FC257FB2A40027B3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6569F5FB257FB2A40027B3B1 /* Assets.xcassets */; };
 		6569F5FF257FB2A40027B3B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6569F5FD257FB2A40027B3B1 /* LaunchScreen.storyboard */; };
+		6569F608257FB4960027B3B1 /* HelloTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6569F607257FB4960027B3B1 /* HelloTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6569F5EC257FB29F0027B3B1 /* CoreData Practise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData Practise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6569F5EF257FB29F0027B3B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6569F5F1257FB29F0027B3B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6569F5F3257FB29F0027B3B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6569F5F6257FB29F0027B3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6569F5F9257FB29F0027B3B1 /* CoreData_Practise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData_Practise.xcdatamodel; sourceTree = "<group>"; };
 		6569F5FB257FB2A40027B3B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6569F5FE257FB2A40027B3B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6569F600257FB2A40027B3B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6569F607257FB4960027B3B1 /* HelloTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				6569F5EF257FB29F0027B3B1 /* AppDelegate.swift */,
 				6569F5F1257FB29F0027B3B1 /* SceneDelegate.swift */,
-				6569F5F3257FB29F0027B3B1 /* ViewController.swift */,
 				6569F5F5257FB29F0027B3B1 /* Main.storyboard */,
 				6569F5FB257FB2A40027B3B1 /* Assets.xcassets */,
 				6569F5FD257FB2A40027B3B1 /* LaunchScreen.storyboard */,
 				6569F600257FB2A40027B3B1 /* Info.plist */,
 				6569F5F8257FB29F0027B3B1 /* CoreData_Practise.xcdatamodeld */,
+				6569F607257FB4960027B3B1 /* HelloTableViewController.swift */,
 			);
 			path = "CoreData Practise";
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6569F5F4257FB29F0027B3B1 /* ViewController.swift in Sources */,
+				6569F608257FB4960027B3B1 /* HelloTableViewController.swift in Sources */,
 				6569F5F0257FB29F0027B3B1 /* AppDelegate.swift in Sources */,
 				6569F5F2257FB29F0027B3B1 /* SceneDelegate.swift in Sources */,
 				6569F5FA257FB29F0027B3B1 /* CoreData_Practise.xcdatamodeld in Sources */,
